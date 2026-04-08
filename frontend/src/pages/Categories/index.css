@@ -1,0 +1,185 @@
+.category-page {
+    background-color: #fafafa;
+    min-height: 100vh;
+}
+
+.category-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px 32px;
+}
+
+.back-btn {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 40px;
+    transition: 0.3s;
+    font-family: italic;
+}
+
+.back-btn:hover {
+    color: #111;
+    transform: translateX(-5px);
+}
+
+.category-header {
+    margin-bottom: 60px;
+    align-items: center;
+}
+
+.category-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 56px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.span-count{
+    font-size: 20px;
+    color: #888;
+    text-align: center;
+    margin: 20px;
+    font-family: 'uniqual Antiqua', serif;
+}
+
+.category-subtitle {
+    color: #888;
+    font-size: 16px;
+    text-align: center;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 40px;
+}
+
+.loader {
+    text-align: center;
+    padding: 100px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    font-style: italic;
+    color: #74c69d;
+}
+
+.filter-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 30px;
+}
+
+.search-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 400px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 14px 15px 14px 45px;
+    border: none;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    color: #666;
+    transition: 0.3s;
+    line-height: 1;
+}
+
+.search-box input:focus {
+    border-bottom: 1px solid #eae5e5;
+}
+.search-box input::placeholder {
+    color: #333;
+    opacity: 0.7;
+}
+
+.select-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.price-select {
+    appearance: none;
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 10px 40px 10px 20px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #111;
+    cursor: pointer;
+    transition: 0.3s;
+    min-width: 180px;
+}
+
+.price-select:hover {
+    border-color: #111;
+}
+
+.select-arrow {
+    position: absolute;
+    right: 15px;
+    pointer-events: none;
+    color: #999;
+}
+
+.loader {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    padding: 100px 0;
+    color: #888;
+}
+.empty-state{
+    text-align: center;
+    padding: 100px 20px;
+}
+.empty-state-head{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    color: #111;
+    margin-bottom: 20px;
+}
+.empty-state-para{
+    font-size: 16px;
+    color: #666;
+    max-width: 400px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.retry{
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #333a2f;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}

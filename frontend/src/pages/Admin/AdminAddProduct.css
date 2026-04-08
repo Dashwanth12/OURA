@@ -1,0 +1,87 @@
+.admin-add-container {
+    padding: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.admin-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.form-main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+.input-section input,
+.input-section textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    background: #fafafa;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.row-inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.admin-preview-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.admin-preview-card {
+    position: relative;
+    aspect-ratio: 1/1;
+    background: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.admin-preview-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.admin-upload-btn {
+    aspect-ratio: 1/1;
+    border: 2px dashed #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 8px;
+    color: #999;
+}
+
+.submit-btn {
+    margin-top: 40px;
+    width: 100%;
+    padding: 20px;
+    background: #111;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.submit-btn:disabled {
+    background: #999;
+}

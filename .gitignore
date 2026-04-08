@@ -1,0 +1,44 @@
+# Environment variables - NEVER COMMIT
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# Dependencies
+node_modules/
+package-lock.json
+backend/node_modules/
+backend/package-lock.json
+frontend/node_modules/
+frontend/package-lock.json
+
+# Build outputs
+dist/
+build/
+backend/dist/
+frontend/dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/

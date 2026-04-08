@@ -1,0 +1,132 @@
+.category-page {
+    background-color: #ffffff;
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+
+.category-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 60px 40px;
+}
+
+
+.back-btn {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    color: #999;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 60px;
+    transition: 0.3s ease;
+    font-family: system-ui, -apple-system, sans-serif;
+    font-weight: 600;
+}
+
+.back-btn:hover {
+    color: #111;
+    transform: translateX(-8px);
+}
+
+.category-header {
+    margin-bottom: 80px;
+    border-left: 4px solid #111;
+    padding-left: 30px;
+}
+
+.category-title {
+    font-family: 'Ephesis', serif;
+    font-size: clamp(40px, 6vw, 72px);
+    font-weight: 400;
+    color: #111;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.category-subtitle {
+    color: #888;
+    font-size: 16px;
+    font-weight: 300;
+    max-width: 500px;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 50px 30px;
+    animation: fadeInGrid 0.8s ease-out;
+}
+
+@keyframes fadeInGrid {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.loader {
+    text-align: center;
+    padding: 150px 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 28px;
+    color: #ccc;
+    letter-spacing: 1px;
+}
+
+.empty-state {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.empty-state h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.empty-state button {
+    background: #111;
+    color: #fff;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.empty-state button:hover {
+    background: #333;
+    letter-spacing: 3px;
+}
+
+
+@media (max-width: 768px) {
+    .category-container {
+        padding: 40px 20px;
+    }
+
+    .category-header {
+        margin-bottom: 40px;
+    }
+
+    .category-grid {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        gap: 30px 20px;
+    }
+}
