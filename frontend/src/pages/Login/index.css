@@ -63,7 +63,7 @@
 
 .greeting {
     font-size: 50px;
-    color: #2f2f2f;
+    color: #8338ec;
     font-family: 'ephesis', cursive;
     font-weight: 400;
     margin-bottom: 10px;
@@ -215,7 +215,6 @@
     color: #2f2f2f;
 }
 
-/* MOBILE */
 @media (max-width: 640px) {
     .greeting {
         font-size: 26px;

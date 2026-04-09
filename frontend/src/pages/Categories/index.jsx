@@ -4,7 +4,6 @@ import { ArrowLeft, Search, ChevronDown } from 'lucide-react';
 import ProductCard from '../../components/ProductCard'
 import Footer from '../../components/Footer'
 import Navbar from '../../components/Navbar'
-
 import './index.css'
 
 
