@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import {useParams, useNavigate} from 'react-router-dom'
 import { ArrowLeft, Search, ChevronDown } from 'lucide-react';
 import ProductCard from '../../components/ProductCard'
+import Footer from '../../components/Footer'
 import Navbar from '../../components/Navbar'
 
 import './index.css'
@@ -103,6 +104,7 @@ const CategoryPage = () => {
                     </div>
                 )}
             </main>
+            <Footer />
         </div>
     )
 }
