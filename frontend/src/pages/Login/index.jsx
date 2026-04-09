@@ -32,7 +32,7 @@ const Login = () => {
 
         if (time < 12) setGreeting('Good Morning!')
             else if (time < 17) setGreeting('Good Afternoon!')
-        else setGreeting('Good Evening.')
+        else setGreeting('Good Evening!')
     },[])
 
     const handleSendOtp = async (e) => {
