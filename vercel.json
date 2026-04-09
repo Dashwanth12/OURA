@@ -23,10 +23,6 @@
       "dest": "frontend/dist/assets/$1"
     },
     {
-      "src": "/index.css",
-      "dest": "frontend/dist/index.css"
-    },
-    {
       "src": "/(.*)",
       "dest": "frontend/dist/index.html"
     }
