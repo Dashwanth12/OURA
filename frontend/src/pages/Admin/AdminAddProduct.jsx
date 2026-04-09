@@ -52,7 +52,7 @@ const AdminAddProduct = () => {
         });
 
         try {
-            const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/products/add`, {
+            const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/products/add-product`, {
                 method: 'POST',
                 body: data 
             });

@@ -27,19 +27,6 @@ app.get('/', (req,res) => {
     res.send('Oura Backend is Running')
 })
 
-// Add Products 
-
-app.post('/api/products/add', async (req,res) => {
-
-    try{
-        const newProduct = new Product(req.body)
-        const saveProduct = await newProduct.save()
-        res.status(201).json(saveProduct)
-    }catch(err){
-        res.status(500).json({error: err.message})
-    }
-})
-
 // update
 
 app.put('/api/products/update/:id', async (req, res) => {

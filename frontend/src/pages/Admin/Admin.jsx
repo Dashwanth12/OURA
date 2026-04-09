@@ -65,7 +65,7 @@ const Admin = () => {
 
         const url = editingId
             ? `${import.meta.env.VITE_API_BASE_URL}/api/products/update/${editingId}`
-            : `${import.meta.env.VITE_API_BASE_URL}/api/products/add`;
+            : `${import.meta.env.VITE_API_BASE_URL}/api/products/add-product`;
 
         const cleanProduct = { ...product };
         delete cleanProduct._id;
