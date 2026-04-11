@@ -75,7 +75,7 @@ function HeroBanner() {
                         </p>
 
                         <button className="hero-btn" onClick={() => navigate('/browse')}>
-                            Browse Collection
+                            Browse Collections
                             <ArrowRight size={16} />
                         </button>
                     </div>
