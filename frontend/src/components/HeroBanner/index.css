@@ -3,7 +3,7 @@
 .hero {
     position: relative;
     min-height: 100vh;
-    background: #fcfcfc;
+    background: #666;
     overflow: hidden;
     font-family: 'Cormorant Garamond', serif;
 }
