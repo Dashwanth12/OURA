@@ -3,7 +3,7 @@
 .hero {
     position: relative;
     min-height: 100vh;
-    background: #666;
+    background: #333;
     overflow: hidden;
     font-family: 'Cormorant Garamond', serif;
 }
@@ -58,22 +58,19 @@
         transform: translateX(0);
     }
 }
-.greeting{
-    color: #972ac3
-}
 
 .badge-prefix {
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 4px;
-    color: #1a1a1a;
+    color: #fff;
     text-transform: uppercase;
 }
 
 .badge-divider {
     width: 40px;
     height: 1px;
-    background: #e5e5e5;
+    background: #8338ec;
 }
 
 .badge-series {
@@ -95,7 +92,7 @@
     font-weight: 500;
     line-height: 0.9;
     margin-bottom: 30px;
-    color: #111;
+    color: #fff;
     letter-spacing: -2px;
 }
 
@@ -106,7 +103,7 @@
 }
 
 .hero-left p {
-    color: #666;
+    color: #fff;
     font-size: 20px;
     line-height: 1.6;
     margin-bottom: 45px;
@@ -120,8 +117,8 @@
     align-items: center;
     gap: 12px;
     padding: 18px 35px;
-    background: #111;
-    color: white;
+    background: #fff;
+    color: #333;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2px;
