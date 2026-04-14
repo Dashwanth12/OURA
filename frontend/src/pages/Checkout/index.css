@@ -58,6 +58,7 @@
 .checkout-summary h3 {
     font-size: 18px;
     margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
