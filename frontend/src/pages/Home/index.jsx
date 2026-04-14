@@ -87,7 +87,7 @@ function Home() {
                 {loading ? (
                     <div className='loader-container'>
                         <div className='pulse-loader'></div>
-                        <p>Refining Selection...</p>
+                        <p>OURA...</p>
                     </div>
                 ) : (
                     <section className='featured-showcase'>

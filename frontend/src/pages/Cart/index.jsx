@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from '../../components/Navbar';
 import { useCart } from '../../context/cartContext';
 import { Trash2, Minus, Plus, ShoppingBag, ArrowRight } from 'lucide-react';
@@ -80,3 +80,5 @@ function Cart() {
 }
 
 export default Cart;
+
+

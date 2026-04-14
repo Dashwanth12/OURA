@@ -5,7 +5,7 @@ import { useCart } from  '../../context/cartContext';
 import { ArrowLeft, ShoppingBag, Heart, Star, Minus, Plus, Truck, Shield, RotateCcw } from 'lucide-react';
 import './index.css';
 
-const ProductDetail = () => {
+const ProductDetail = ()   => {
     const { id } = useParams();
     const navigate = useNavigate();
     const { addToCart } = useCart(); 
@@ -40,12 +40,10 @@ const ProductDetail = () => {
         if (id) fetchProductData();
     }, [id]);
 
-    // 3. Handle Add to Bag
     const handleAddToBag = async () => {
         setAdding(true);
         try {
             await addToCart(product, quantity);
-            // Visual feedback - you could also use a toast notification here
         } catch (error) {
             console.error("Failed to add to bag", error);
         } finally {
@@ -75,7 +73,7 @@ const ProductDetail = () => {
         fetchRelated();
     }, [product]);
 
-    if (loading) return <div className="loader">Revealing Details...</div>;
+    if (loading) return <div className="loader">OURA...</div>;
     if (!product) return <div className="not-found">Product not found.</div>;
 
     const hasGallery = product.gallery && product.gallery.length > 0;
