@@ -86,7 +86,7 @@ const CategoryPage = () => {
                 </div>
                 
                 {loading ? (
-                    <div className="loader">Curating Collection...</div>
+                    <div className="loader">OURA...</div>
                 ) : (
                     <div className="category-grid">
                         {filteredProducts.length > 0 ? (
