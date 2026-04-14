@@ -31,7 +31,7 @@ const banners = [
         titleHighlight: 'Next Adventure.',
         description: 'Classic Literature Collection',
         subdescription: 'Timeless Stories. Endless Imagination.',
-        buttonText: 'Explore Now',
+        buttonText: 'Shop Books',
         image: book,
         gradient: 'linear-gradient(135deg, #6e3d8d 0%, #22052d 100%)', 
         textColor: '#ffffff',
