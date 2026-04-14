@@ -29,7 +29,7 @@ function Home() {
         },
         {
             title: "handles Payment At Ease.",
-            desc: "Paying can be done in your Ways."
+            desc: "Payment can be done in your own Way."
         }
     ];
 
