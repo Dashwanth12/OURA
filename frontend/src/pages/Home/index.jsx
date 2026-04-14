@@ -26,6 +26,10 @@ function Home() {
         {
             title: "Secure Checkout",
             desc: "Your data and transactions are protected by industry-leading encryption."
+        },
+        {
+            title: "handles Payment At Ease.",
+            desc: "Paying can be done in your Ways."
         }
     ];
 
