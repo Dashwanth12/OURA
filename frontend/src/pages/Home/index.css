@@ -169,6 +169,7 @@
     .why-image-side {
         max-width: 600px;
         margin: 0 auto;
+        border-radius: 10px;
     }
 }
 
