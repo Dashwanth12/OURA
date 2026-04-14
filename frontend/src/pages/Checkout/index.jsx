@@ -46,6 +46,9 @@ function Checkout() {
                 </form>
 
                 <aside className="checkout-summary">
+                    <h2>
+                        have a Promo Code
+                    </h2>
                     <h3>Order Summary</h3>
                     {cart.map((item) => (
                         <div key={item.product_id} className="summary-row">
