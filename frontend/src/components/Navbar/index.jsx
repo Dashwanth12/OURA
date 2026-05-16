@@ -35,6 +35,8 @@ function Navbar() {
     }).slice(0, 5)
 
 
+
+
     const onLogout = async () => {
         const { error } = await supabase.auth.signOut()
 

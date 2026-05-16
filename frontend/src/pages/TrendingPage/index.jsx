@@ -44,7 +44,7 @@ const TrendingPage = () => {
                 </header>
 
                 {loading ? (
-                    <div className="loader">Updating Trends...</div>
+                    <div className="loader">OURA...</div>
                 ) : (
                     <div className="category-grid">
                         {products.map(product => (
